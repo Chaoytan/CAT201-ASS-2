@@ -20,7 +20,6 @@ function App() {
             <DemoVideo />
             <Team />
             <Footer />
-
         </div>
     );
 }

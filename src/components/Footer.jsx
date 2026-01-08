@@ -4,7 +4,7 @@ const Footer = () => {
 
     const styles = {
         footer: {
-            backgroundColor: '#0f0f1b', // Slightly darker than your main bg for contrast
+            backgroundColor: '#0f0f1b',
             color: '#ffffff',
             padding: '4rem 2rem 1rem',
             marginTop: 'auto',
@@ -26,7 +26,7 @@ const Footer = () => {
         heading: {
             fontSize: '1.2rem',
             marginBottom: '1rem',
-            color: '#4db5ff', // Matches your "Blue" theme accents
+            color: '#4db5ff',
         },
         text: {
             fontSize: '0.9rem',

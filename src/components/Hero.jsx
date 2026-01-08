@@ -4,13 +4,13 @@ const Hero = () => {
     const heroStyle = {
         textAlign: 'center',
         padding: '100px 20px',
-        background: 'linear-gradient(to right, #16222A, #3A6073)', // Professional gradient
+        background: 'linear-gradient(to right, #16222A, #3A6073)',
         color: 'white'
     };
 
     // Smooth scrolling to DemoVideo section
     const scrollToDemo = () => {
-        const element = document.getElementById('demo'); // targets the Video section
+        const element = document.getElementById('demo');
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
         }

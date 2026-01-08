@@ -4,7 +4,7 @@ const Services = () => {
     const containerStyle = {
         padding: '60px 20px',
         textAlign: 'center',
-        backgroundColor: '#fff'
+        backgroundColor: '#ffffff'
     };
 
     const cardContainer = {

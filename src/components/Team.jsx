@@ -32,7 +32,7 @@ const Team = () => {
     const imgStyle = {
         width: '100px',
         height: '100px',
-        borderRadius: '50%', // Makes the photo a circle
+        borderRadius: '50%',
         objectFit: 'cover',
         marginBottom: '15px'
     };
