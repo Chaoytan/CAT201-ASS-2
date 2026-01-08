@@ -34,10 +34,18 @@ const Navbar = () => {
 
     return (
         <nav style={navStyle}>
-            {/* Company Title */}
-            <h1 style={{ fontSize: '1.5rem', whiteSpace: 'nowrap' }}>
-                GeoPresence Solutions
-            </h1>
+            <div style={{ display: 'flex', alignItems: 'center' }}>
+                {/* Company Logo */}
+                <img
+                    src="/geoplogo1.png"
+                    alt="Logo"
+                    style={{ height: '40px', marginRight: '10px' }}
+                />
+                {/* Company Title */}
+                <h1 style={{ fontSize: '1.5rem', whiteSpace: 'nowrap' }}>
+                    GeoPresence Solutions
+                </h1>
+            </div>
 
 
             {/* Navigation Link Container*/}
